@@ -1,0 +1,15 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  height: 100%;
+}
+
+mat-form-field {
+  width: 500px;
+  background-color: white;
+}
+
+mat-card {
+  border-radius: 15px;
+}

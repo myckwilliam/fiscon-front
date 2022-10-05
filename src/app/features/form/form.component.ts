@@ -1,3 +1,4 @@
+import { MatButtonModule } from '@angular/material/button';
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatFormFieldModule } from '@angular/material/form-field';
@@ -14,12 +15,9 @@ import { MatCardModule } from '@angular/material/card';
     MatInputModule,
     MatIconModule,
     MatCardModule,
+    MatButtonModule,
   ],
   templateUrl: './form.component.html',
   styleUrls: ['./form.component.css'],
 })
-export class FormComponent implements OnInit {
-  constructor() {}
-
-  ngOnInit(): void {}
-}
+export class FormComponent {}

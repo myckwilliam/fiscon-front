@@ -1,8 +1,7 @@
 .form {
   display: flex;
   flex-direction: column;
-  padding: 100px;
-  height: 100%;
+  margin-top: 1rem;
 }
 
 mat-form-field {
@@ -12,4 +11,10 @@ mat-form-field {
 
 mat-card {
   border-radius: 15px;
+  padding: 100px;
+}
+
+button {
+  width: 500px;
+  height: 40px;
 }

@@ -1,10 +1,12 @@
 .container {
   padding: 6rem;
+  background-color: #ff4081;
+  height: calc(100vh - 12rem);
 }
 
 .title {
   font-size: 2em;
-  color: #333;
+  color: #fff;
   text-align: center;
   margin-bottom: 7rem;
 }

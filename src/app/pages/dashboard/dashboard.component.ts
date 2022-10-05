@@ -2,20 +2,18 @@ import { ChangeDetectorRef, Component, inject, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DataService } from 'src/app/core/services/data.service';
 import { User } from 'src/app/core/models/user';
-import { MatTableDataSource, MatTableModule } from '@angular/material/table';
-import { MatIconModule } from '@angular/material/icon';
-import { MatButtonModule } from '@angular/material/button';
+import { TableComponent } from 'src/app/features/table/table.component';
+import { MatTableDataSource } from '@angular/material/table';
 
 @Component({
   selector: 'app-dashboard',
   standalone: true,
-  imports: [CommonModule, MatTableModule, MatIconModule, MatButtonModule],
+  imports: [CommonModule, TableComponent],
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.css'],
 })
 export class DashboardComponent implements OnInit {
   private dataService = inject(DataService);
-  private changeDetector = inject(ChangeDetectorRef);
 
   users = new MatTableDataSource<User>();
   displayedColumns = ['name', 'phone', 'actions'];
@@ -36,4 +34,6 @@ export class DashboardComponent implements OnInit {
     this.dataService.delete(user);
     this.users.data = this.dataService.list();
   }
+
+  handleAdd() {}
 }

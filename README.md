@@ -1,27 +1,37 @@
-# ProvaFrontFiscon
+# fiscon-front
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
+Um projeto para uma vaga de Front-end Angular ao qual me candidatei. Esse projeto foi feito com Angular 14, Angular Material e também fiz testes e2e com Cypress.
 
-## Development server
+## Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Neste projeto Angular é possível:
 
-## Code scaffolding
+1. Cadastrar, obter, editar e excluir dados em memória;
+2. Ordenar os dados do usuário
+3. Buscar dados através de input text através do evento de keydown
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+EXTRAS
 
-## Build
+1. Validação de formulário. Bem simples, só verificando se o campo foi preenchido;
+2. Testes e2e com Cypress;
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Rodando os testes
 
-## Running unit tests
+1. Em seu terminal, após clonar o repositório e instalar as dependências, rode com `npx cypress open`
+2. Selecione `E2E Testing` na janela que apareceu
+3. Escolha seu navegador preferido
+4. Selecione `Specs` no menu lateral
+5. Clique em `app.cy`
+6. Verifique que todos os testes passam
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Telas da aplicação
 
-## Running end-to-end tests
+### Dashboard
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+![image](https://user-images.githubusercontent.com/75875219/194188053-146692e3-3a2e-4d18-b8be-fedd31318a9b.png)
 
-## Further help
+### Cadastro / Edição
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![image](https://user-images.githubusercontent.com/75875219/194188120-003cfce5-ee4b-4c63-8fd3-57d47f90ecc8.png)
+<br>
+![image](https://user-images.githubusercontent.com/75875219/194188259-973bda90-7cce-4718-9bab-55a1cf02d4ad.png)

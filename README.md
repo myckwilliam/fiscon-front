@@ -24,6 +24,10 @@ EXTRAS
 5. Clique em `app.cy`
 6. Verifique que todos os testes passam
 
+## Acesso
+
+Você pode acessar a aplicação direto da cloud através [deste link.](https://fiscon-myck.vercel.app)
+
 ## Telas da aplicação
 
 ### Dashboard

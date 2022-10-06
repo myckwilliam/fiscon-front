@@ -34,8 +34,7 @@ EXTRAS
 
 ![image](https://user-images.githubusercontent.com/75875219/194188120-003cfce5-ee4b-4c63-8fd3-57d47f90ecc8.png)
 <br>
-![image](https://user-images.githubusercontent.com/75875219/194188159-3b51a87e-5ed4-4e60-a2f3-0c403684e620.png)
-
+![image](https://user-images.githubusercontent.com/75875219/194188259-973bda90-7cce-4718-9bab-55a1cf02d4ad.png)
 
 
 

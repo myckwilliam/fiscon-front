@@ -5,6 +5,7 @@
       <mat-label>Name</mat-label>
       <input
         matInput
+        id="name-input"
         placeholder="First Name"
         name="name"
         [(ngModel)]="user.name"
@@ -20,6 +21,7 @@
       <mat-label>Phone</mat-label>
       <input
         matInput
+        id="phone-input"
         name="phone"
         [(ngModel)]="user.phone"
         placeholder="Phone Number"
@@ -36,6 +38,7 @@
   <button
     mat-flat-button
     color="accent"
+    id="action-button"
     [disabled]="form.invalid"
     (click)="handleAction()"
   >
